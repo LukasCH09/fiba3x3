@@ -1,6 +1,13 @@
 {
   "compilerOptions": {
-    "lib": ["es2017", "dom"],
-    "jsx": "react"
-  }
+    "target": "es2015",
+    "downlevelIteration": true,
+    "lib": ["es2015", "dom"],
+    "strict": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"]
 }
